@@ -10,6 +10,8 @@ My personal dotfiles managed with the **bare git repo** method.
 | `.gitconfig` | Git configuration with aliases and defaults |
 | `.gitignore_global` | Global gitignore patterns |
 | `.config/starship.toml` | Starship prompt configuration |
+| `.config/vscode/settings.json` | VS Code editor settings (requires symlink) |
+| `.config/htop/htoprc` | htop process viewer configuration |
 | `.ssh/config` | SSH configuration for GitHub |
 | `Brewfile` | Homebrew packages for CLI tools |
 
@@ -30,7 +32,10 @@ My personal dotfiles managed with the **bare git repo** method.
     # 5. Install CLI tools
     brew bundle --file=~/Brewfile
 
-    # 6. Reload shell
+    # 6. Set up symlinks
+    ln -s ~/.config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+
+    # 7. Reload shell
     source ~/.zshrc
 
 ## Daily usage
