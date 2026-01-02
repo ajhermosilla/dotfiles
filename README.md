@@ -11,6 +11,7 @@ My personal dotfiles managed with the **bare git repo** method.
 | `.gitignore_global` | Global gitignore patterns |
 | `.config/starship.toml` | Starship prompt configuration |
 | `.config/vscode/settings.json` | VS Code editor settings (requires symlink) |
+| `.config/vscode/extensions.txt` | VS Code extensions list |
 | `.config/htop/htoprc` | htop process viewer configuration |
 | `.ssh/config` | SSH configuration for GitHub |
 | `Brewfile` | Homebrew packages for CLI tools |
@@ -35,7 +36,10 @@ My personal dotfiles managed with the **bare git repo** method.
     # 6. Set up symlinks
     ln -s ~/.config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
-    # 7. Reload shell
+    # 7. Install VS Code extensions
+    cat ~/.config/vscode/extensions.txt | xargs -L 1 code --install-extension
+
+    # 8. Reload shell
     source ~/.zshrc
 
 ## Daily usage
