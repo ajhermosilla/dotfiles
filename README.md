@@ -10,6 +10,7 @@ My personal dotfiles managed with the **bare git repo** method.
 | `.gitconfig` | Git configuration with aliases and defaults |
 | `.gitignore_global` | Global gitignore patterns |
 | `.config/starship.toml` | Starship prompt configuration |
+| `Brewfile` | Homebrew packages for CLI tools |
 
 ## Installation on a new machine
 
