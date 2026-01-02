@@ -26,7 +26,10 @@ My personal dotfiles managed with the **bare git repo** method.
     # 4. Hide untracked files
     dotfiles config --local status.showUntrackedFiles no
 
-    # 5. Reload shell
+    # 5. Install CLI tools
+    brew bundle --file=~/Brewfile
+
+    # 6. Reload shell
     source ~/.zshrc
 
 ## Daily usage
