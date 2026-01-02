@@ -100,26 +100,6 @@ setopt PROMPT_SUBST
 PROMPT='%F{cyan}%~%f${vcs_info_msg_0_} %F{green}❯%f '
 
 # -----------------------------------------------------------------------------
-# MODERN CLI TOOLS (uncomment after `brew install`)
-# -----------------------------------------------------------------------------
-# eza - better ls
-# alias ls="eza --icons"
-# alias ll="eza -lah --icons"
-# alias tree="eza --tree --icons"
-
-# bat - better cat
-# alias cat="bat"
-
-# zoxide - smarter cd
-# eval "$(zoxide init zsh)"
-
-# fzf - fuzzy finder
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# starship - modern prompt (replaces PROMPT above)
-# eval "$(starship init zsh)"
-
-# -----------------------------------------------------------------------------
 # LOCAL OVERRIDES (machine-specific, not tracked)
 # -----------------------------------------------------------------------------
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
