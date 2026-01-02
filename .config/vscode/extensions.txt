@@ -1,0 +1,3 @@
+esbenp.prettier-vscode
+mechatroner.rainbow-csv
+mohsen1.prettify-json
