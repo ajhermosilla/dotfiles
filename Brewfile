@@ -12,3 +12,13 @@ brew "fzf"        # fuzzy finder
 brew "ripgrep"    # better grep
 brew "starship"   # prompt
 brew "zoxide"     # smarter cd
+
+# Essentials
+brew "curl"       # HTTP client
+brew "git"        # version control
+brew "htop"       # process viewer
+brew "jq"         # JSON processor
+brew "tldr"       # simplified man pages
+brew "tmux"       # terminal multiplexer
+brew "vim"        # text editor
+brew "wget"       # file downloader
