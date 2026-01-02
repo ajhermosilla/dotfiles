@@ -124,3 +124,29 @@ PROMPT='%F{cyan}%~%f${vcs_info_msg_0_} %F{green}❯%f '
 # -----------------------------------------------------------------------------
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
 
+
+# -----------------------------------------------------------------------------
+# MODERN CLI TOOLS (enabled)
+# -----------------------------------------------------------------------------
+# eza - better ls
+alias ls="eza --icons"
+alias ll="eza -lah --icons"
+alias tree="eza --tree --icons"
+
+# bat - better cat
+alias cat="bat"
+
+# fd - better find
+alias find="fd"
+
+# ripgrep - better grep
+alias grep="rg"
+
+# zoxide - smarter cd
+eval "$(zoxide init zsh)"
+
+# fzf - fuzzy finder
+source <(fzf --zsh)
+
+# starship - modern prompt
+eval "$(starship init zsh)"
