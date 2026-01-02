@@ -91,15 +91,6 @@ alias h="history"
 alias reload="source ~/.zshrc"
 
 # -----------------------------------------------------------------------------
-# PROMPT (minimal - upgrade to Starship later)
-# -----------------------------------------------------------------------------
-autoload -Uz vcs_info
-precmd() { vcs_info }
-zstyle ':vcs_info:git:*' formats ' %F{yellow}(%b)%f'
-setopt PROMPT_SUBST
-PROMPT='%F{cyan}%~%f${vcs_info_msg_0_} %F{green}❯%f '
-
-# -----------------------------------------------------------------------------
 # LOCAL OVERRIDES (machine-specific, not tracked)
 # -----------------------------------------------------------------------------
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
