@@ -40,7 +40,7 @@ My personal dotfiles managed with the **bare git repo** method.
 - **Terminal**: iTerm2
 - **Shell**: Zsh
 - **Prompt**: Starship
-- **CLI tools**: eza, bat, fzf, zoxide, ripgrep
+- **CLI tools**: eza, bat, fd, fzf, ripgrep, zoxide
 
 ## Author
 
