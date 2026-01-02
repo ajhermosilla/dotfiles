@@ -60,9 +60,6 @@ bindkey '^[[B' history-search-forward    # Down arrow
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias ll="ls -lah"
-alias la="ls -A"
-alias l="ls -CF"
 
 # -----------------------------------------------------------------------------
 # ALIASES - Git
