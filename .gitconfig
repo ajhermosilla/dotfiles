@@ -1,0 +1,28 @@
+[user]
+    name = Augusto Hermosilla
+    email = augusto@cronova.dev
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --decorate -10
+    last = log -1 HEAD
+    unstage = reset HEAD --
+
+[pull]
+    rebase = false
+
+[push]
+    autoSetupRemote = true
+
+[color]
+    ui = auto
