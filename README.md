@@ -6,9 +6,10 @@ My personal dotfiles managed with the **bare git repo** method.
 
 | File | Description |
 |------|-------------|
-| `.zshrc` | Zsh configuration with aliases, history, and prompt |
+| `.zshrc` | Zsh configuration with aliases, history, and modern CLI tools |
 | `.gitconfig` | Git configuration with aliases and defaults |
 | `.gitignore_global` | Global gitignore patterns |
+| `.config/starship.toml` | Starship prompt configuration |
 
 ## Installation on a new machine
 
@@ -38,7 +39,7 @@ My personal dotfiles managed with the **bare git repo** method.
 
 - **Terminal**: iTerm2
 - **Shell**: Zsh
-- **Prompt**: Custom (Starship soon)
+- **Prompt**: Starship
 - **CLI tools**: eza, bat, fzf, zoxide, ripgrep
 
 ## Author
