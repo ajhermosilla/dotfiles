@@ -8,6 +8,15 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+    side-by-side = true
+    line-numbers = true
 
 [alias]
     st = status
@@ -23,6 +32,22 @@
 
 [push]
     autoSetupRemote = true
+
+[fetch]
+    prune = true
+
+[diff]
+    algorithm = histogram
+    colorMoved = default
+
+[merge]
+    conflictstyle = zdiff3
+
+[rerere]
+    enabled = true
+
+[credential]
+    helper = osxkeychain
 
 [color]
     ui = auto
