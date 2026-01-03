@@ -1,0 +1,12 @@
+# =============================================================================
+#  BAT CONFIG - Augusto Hermosilla
+# =============================================================================
+
+# Theme (run `bat --list-themes` to see options)
+--theme="Dracula"
+
+# Show line numbers and git changes
+--style="numbers,changes,header"
+
+# Use italic text (if terminal supports it)
+--italic-text=always

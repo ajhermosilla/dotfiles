@@ -20,6 +20,7 @@ export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 # -----------------------------------------------------------------------------
 export EDITOR="vim"
 export LANG="en_US.UTF-8"
+export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/config"
 
 # -----------------------------------------------------------------------------
 # HISTORY

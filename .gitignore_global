@@ -30,3 +30,11 @@ venv/
 .cache/
 dist/
 build/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Direnv
+.envrc
+.direnv/

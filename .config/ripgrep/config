@@ -1,0 +1,22 @@
+# =============================================================================
+#  RIPGREP CONFIG - Augusto Hermosilla
+# =============================================================================
+
+# Smart case: case-insensitive unless uppercase is used
+--smart-case
+
+# Search hidden files/directories
+--hidden
+
+# Follow symbolic links
+--follow
+
+# Ignore .git directory
+--glob=!.git
+
+# Ignore node_modules
+--glob=!node_modules
+
+# Ignore Python cache
+--glob=!__pycache__
+--glob=!.venv
