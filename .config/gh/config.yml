@@ -1,0 +1,16 @@
+version: 1
+git_protocol: ssh
+editor: vim
+prompt: enabled
+pager: delta
+aliases:
+    co: pr checkout
+    pv: pr view
+    pc: pr create
+    pl: pr list
+    il: issue list
+    ic: issue create
+    rv: repo view
+    rc: repo clone
+color_labels: enabled
+spinner: enabled
