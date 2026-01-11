@@ -43,6 +43,7 @@ brew "yt-dlp"     # video downloader
 brew "ollama"     # local LLMs
 
 # Casks
+cask "docker"
 cask "iterm2"
 cask "keepassxc"
 cask "obsidian"
